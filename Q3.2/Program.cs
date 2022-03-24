@@ -4,15 +4,14 @@ class MainClass
 {
     static void Main(string[] args)
     {
-        const string MyName = "Jane";
+		string MyName = "Nikita";
+		byte MyAge = 20;
+		bool HaveIApet = true;
+		double MyShoeSize = 44;
 
-        Console.WriteLine(MyName);
-
-        Console.WriteLine("Привет, мир");
-        Console.WriteLine("Мне 27 лет");
-        Console.WriteLine("My name is Jane");
-        Console.WriteLine('\u0040');
-        Console.WriteLine('\x23');
-        Console.ReadKey();
-    }
+		Console.WriteLine("My name is " + MyName);
+		Console.WriteLine("MyAge " + MyAge);
+		Console.WriteLine("Do I have a pet? " + HaveIApet);
+		Console.WriteLine("My shoe size is " + MyShoeSize);
+	}
 }
